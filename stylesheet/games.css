@@ -1,0 +1,96 @@
+/*Universal Selector for Reseting */
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+    }
+
+body{
+	font-family:'Source Sans Pro', sans-serif;
+	background-color:#61892f;
+}
+.header-content{
+	background-image:url("../img/game_background.jpg");
+	background-size:cover;
+}
+
+#header{
+	height:70vh;
+	width:100vw;
+	
+}
+
+#header-body > h1{
+	color:white;
+	width:31%;
+	border-bottom:2px solid white;
+	border-bottom-left-radius:4px;
+	border-bottom-right-radius:4px;
+}
+
+#header-body > p{
+	color:#d8d8d8;
+
+}
+
+#header-body{
+	position:relative;
+	top:20%;
+	left:10%;
+	width:60%;
+}
+
+.nav-img{
+	width:150px;
+	height:150px;
+	margin-top:-130px;
+	margin-left:105px;
+	margin-right:105px;
+}
+
+.nav-img:hover{
+	-webkit-filter: drop-shadow(2px 2px 0 #aced53)
+            drop-shadow(-2px 2px 0 #aced53)
+            drop-shadow(2px -2px 0 #aced53)
+            drop-shadow(-2px -2px 0 #aced53);
+
+	filter: drop-shadow(2px 2px 0 #aced53)
+	        drop-shadow(-2px 2px 0 #aced53)
+	        drop-shadow(2px -2px 0 #aced53)
+	        drop-shadow(-2px -2px 0 #aced53);
+}
+
+.footer{
+	text-align:center;
+	color:#aced53;
+}
+
+.footer i{
+	color:#86c232;
+	font-size:72px;
+	margin-left:20px;
+	margin-right:20px;
+}
+
+i:hover{
+	color:#aced53;
+}
+
+.rowItem{
+	display:inline-block;
+	vertical-align:top;
+}
+
+#home, #about, #contact, #join{
+	display:none;
+	position:relative;
+	top:-135px;
+	font-size:24px;
+	color:#aced53;
+	margin-left:145px;
+	margin-right:110px;
+}
