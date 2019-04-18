@@ -1,0 +1,5 @@
+#61892f Dark Green
+#86c232 Light Green
+#222629 Black
+#474b4f Dark Gray
+#6b6e70 Light Gray
