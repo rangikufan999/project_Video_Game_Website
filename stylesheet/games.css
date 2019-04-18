@@ -11,15 +11,30 @@
 
 body{
 	font-family:'Source Sans Pro', sans-serif;
-	background-color:#61892f;
+	background-color:#78a83e;
 }
-.header-content{
+.header-content-home{
 	background-image:url("../img/game_background.jpg");
 	background-size:cover;
 }
 
+.header-content-about{
+	background-image:url("../img/game_background_2.jpg");
+	background-size:cover;
+}
+
+.header-content-contact{
+	background-image:url("../img/game_background_3.jpg");
+	background-size:cover;
+}
+
+.header-content-join{
+	background-image:url("../img/game_background_4.png");
+	background-size:cover;
+}
+
 #header{
-	height:70vh;
+	height:69vh;
 	width:100vw;
 	
 }
@@ -30,6 +45,10 @@ body{
 	border-bottom:2px solid white;
 	border-bottom-left-radius:4px;
 	border-bottom-right-radius:4px;
+}
+
+#header-body > h3{
+	color:white;
 }
 
 #header-body > p{
@@ -53,31 +72,35 @@ body{
 }
 
 .nav-img:hover{
-	-webkit-filter: drop-shadow(2px 2px 0 #aced53)
-            drop-shadow(-2px 2px 0 #aced53)
-            drop-shadow(2px -2px 0 #aced53)
-            drop-shadow(-2px -2px 0 #aced53);
+	-webkit-filter: drop-shadow(2px 2px 0 #94ff00)
+            drop-shadow(-2px 2px 0 #94ff00)
+            drop-shadow(2px -2px 0 #94ff00)
+            drop-shadow(-2px -2px 0 #94ff00);
 
-	filter: drop-shadow(2px 2px 0 #aced53)
-	        drop-shadow(-2px 2px 0 #aced53)
-	        drop-shadow(2px -2px 0 #aced53)
-	        drop-shadow(-2px -2px 0 #aced53);
+	filter: drop-shadow(2px 2px 0 #94ff00)
+	        drop-shadow(-2px 2px 0 #94ff00)
+	        drop-shadow(2px -2px 0 #94ff00)
+	        drop-shadow(-2px -2px 0 #94ff00);
 }
 
 .footer{
 	text-align:center;
-	color:#aced53;
+	color:#147c00;
 }
 
 .footer i{
-	color:#86c232;
+	color:#147c00;
 	font-size:72px;
 	margin-left:20px;
 	margin-right:20px;
 }
 
+.footer-author{
+	font-weight:bold;
+}
+
 i:hover{
-	color:#aced53;
+	color:#94ff00;
 }
 
 .rowItem{
@@ -94,3 +117,39 @@ i:hover{
 	margin-left:145px;
 	margin-right:110px;
 }
+
+.container{
+	margin-top:-20px;
+	width:125%;
+	margin:auto;
+	background-color:green;
+	opacity:0.9;
+	border-radius:15px;
+}
+
+.content{
+	padding:5px;
+	width:46%;
+	display:inline-block;
+	vertical-align:top;
+	font-family: "Source Sans Pro", sans-serif;
+	color:#94ff00;
+}
+
+.content-img{
+	float: left;
+	margin-right:20px;
+	border-radius:15px;
+	width:50px;
+	height:50px;
+}
+
+.contact-page{
+	font-size:50px;
+}
+
+a{
+	color:white;
+	text-decoration:none;
+	font-weight:bold;
+	}
